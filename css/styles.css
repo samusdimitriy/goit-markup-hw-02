@@ -82,6 +82,7 @@ body {
     letter-spacing: 0.06em;
     background-color: var(--accent-text-color);
     color: #ffffff;
+    cursor: pointer;
 }
 
 .hidden-title {
@@ -97,7 +98,6 @@ body {
 }
 
 .priority-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -127,6 +127,10 @@ body {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.btn {
+    cursor: pointer;
 }
 
 .portfolio-list > img,
