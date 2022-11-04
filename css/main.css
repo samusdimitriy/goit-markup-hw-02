@@ -16,6 +16,7 @@
 }
 
 .hero .button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -23,8 +24,10 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background-color: var(--accent-text-color);
     color: #ffffff;
+
+    background-color: var(--accent-text-color);
+
     cursor: pointer;
 }
 
@@ -65,22 +68,23 @@
 .buttons .btn:focus,
 .buttons .btn:hover {
     background-color: var(--accent-text-color);
+
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
 }
 
 .btn {
     font-family: inherit;
-    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+
+    cursor: pointer;
 }
 
 .portfolio-list > img,
