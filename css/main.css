@@ -37,13 +37,11 @@
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .priority-text {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
     }
 
@@ -53,7 +51,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .team  p {
@@ -73,11 +70,10 @@
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
