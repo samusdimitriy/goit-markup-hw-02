@@ -8,8 +8,7 @@
 body {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
-    font-size: 14px;
+    font-size: 16px;
 } 
 
 /* Header */
@@ -38,6 +37,7 @@ body {
 .site-nav,
 .auth-nav {
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
@@ -75,6 +75,7 @@ footer {
 
 .address .link {
     font-style: normal;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
